@@ -1,0 +1,50 @@
+// eslint-disable-next-line
+/* eslint-disable */
+
+// Global Designs
+html,
+body {
+  overflow-x: hidden;
+}
+* {
+  font-family: "Roboto", sans-serif;
+  color: #010101;
+
+  &::selection {
+    background-color: #11111163;
+    color: #f1f1f1;
+  }
+  *:focus {
+    outline: none;
+    box-shadow: none;
+  }
+}
+// the scroll bar designing
+::-webkit-scrollbar {
+  width: 5px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #010101;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #010101c5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Playfair Display", serif;
+}
+
+a {
+  color: #010101;
+}
